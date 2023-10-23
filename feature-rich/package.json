@@ -20,6 +20,7 @@
 		"@ckeditor/ckeditor5-core": "39.0.2",
 		"@ckeditor/ckeditor5-dev-translations": "39.0.0",
 		"@ckeditor/ckeditor5-dev-utils": "39.0.0",
+		"@ckeditor/ckeditor5-document-outline": "39.0.2",
 		"@ckeditor/ckeditor5-editor-classic": "39.0.2",
 		"@ckeditor/ckeditor5-engine": "39.0.2",
 		"@ckeditor/ckeditor5-enter": "39.0.2",
@@ -28,6 +29,7 @@
 		"@ckeditor/ckeditor5-export-word": "39.0.2",
 		"@ckeditor/ckeditor5-find-and-replace": "39.0.2",
 		"@ckeditor/ckeditor5-font": "39.0.2",
+		"@ckeditor/ckeditor5-format-painter": "39.0.2",
 		"@ckeditor/ckeditor5-heading": "39.0.2",
 		"@ckeditor/ckeditor5-highlight": "39.0.2",
 		"@ckeditor/ckeditor5-horizontal-line": "39.0.2",
@@ -46,9 +48,11 @@
 		"@ckeditor/ckeditor5-paste-from-office": "39.0.2",
 		"@ckeditor/ckeditor5-remove-format": "39.0.2",
 		"@ckeditor/ckeditor5-select-all": "39.0.2",
+		"@ckeditor/ckeditor5-slash-command": "39.0.2",
 		"@ckeditor/ckeditor5-special-characters": "39.0.2",
 		"@ckeditor/ckeditor5-style": "39.0.2",
 		"@ckeditor/ckeditor5-table": "39.0.2",
+		"@ckeditor/ckeditor5-template": "39.0.2",
 		"@ckeditor/ckeditor5-theme-lark": "39.0.2",
 		"@ckeditor/ckeditor5-typing": "39.0.2",
 		"@ckeditor/ckeditor5-ui": "39.0.2",
@@ -57,10 +61,6 @@
 		"@ckeditor/ckeditor5-utils": "39.0.2",
 		"@ckeditor/ckeditor5-widget": "39.0.2",
 		"@ckeditor/ckeditor5-word-count": "39.0.2",
-		"@ckeditor/ckeditor5-template": "39.0.2",
-		"@ckeditor/ckeditor5-document-outline": "39.0.2",
-		"@ckeditor/ckeditor5-format-painter": "39.0.2",
-		"@ckeditor/ckeditor5-slash-command": "39.0.2",
 		"@webspellchecker/wproofreader-ckeditor5": "2.3.1",
 		"css-loader": "^5.2.7",
 		"postcss": "^8.4.19",
@@ -76,5 +76,9 @@
 		"build": "webpack --mode production",
 		"build-dev": "webpack --mode development",
 		"start": "webpack serve --open /index.html --mode development"
+	},
+	"dependencies": {
+		"@ckeditor/ckeditor5-build-decoupled-document": "^40.0.0",
+		"ckeditor5-image": "^1.0.5"
 	}
 }
